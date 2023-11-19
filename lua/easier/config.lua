@@ -113,8 +113,8 @@ local UserConfig = {
       right = ">",
     },
     -- Previous command/Next command
-    pre_command = {"<C-i>", "<up>"}
-    next_command = {"<C-k>", "<down>"}
+    pre_command = {"<C-i>", "<up>"},
+    next_command = {"<C-k>", "<down>"},
 
     -- fold
     fold = {
