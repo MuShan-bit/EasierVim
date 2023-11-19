@@ -64,7 +64,7 @@ keymap("n", keys.copy.row, "yy")
 keymap("n", keys.paste.left, "P")
 keymap("n", keys.paste.right, "p")
 -- visual mode use paste, not copy
-keymap({"x", "v"}, { paste.left, paste.right }, '"_dP')
+keymap({"x", "v"}, { keys.paste.left, keys.paste.right }, '"_dP')
 
 -- Indent code
 keymap("v", keys.indent_left, "<gv")
