@@ -1,1 +1,1 @@
-require("insis").setup({})
+require("easier").setup({})
