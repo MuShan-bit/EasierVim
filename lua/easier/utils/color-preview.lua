@@ -55,11 +55,11 @@ local opts = {
   sorter = sorters.get_generic_fuzzy_sorter({}),
   attach_mappings = function(_, map)
     map("i", "<CR>", enter)
-    map("i", {"<C-i>", "<up>"}, prev_color)
-    map("i", {"<C-k>", "<down>"}, next_color)
+    map("i", "<C-i>", prev_color)
+    map("i", "<C-k>", next_color)
     map("n", "<CR>", enter)
-    map("n", { "i", "<up>" }, prev_color)
-    map("n", { "k", "<down>"}, next_color)
+    map("n", "i", prev_color)
+    map("n", "k", next_color)
     return true
   end,
 }
