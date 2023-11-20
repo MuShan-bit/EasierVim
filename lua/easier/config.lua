@@ -292,7 +292,7 @@ local UserConfig = {
 
   ---@class SurroundConfig
   surround = {
-    enable = true,
+    enable = false,
     keys = {
       -- you surround
       normal = "ys",
