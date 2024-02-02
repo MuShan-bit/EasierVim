@@ -44,7 +44,7 @@ local UserConfig = {
   max_highlight_line_count = 10000,
   enable_imselect = false,
   enable_very_magic_search = false,
-  fix_windows_clipboard = false,
+  fix_windows_clipboard = true,
 
   ---@class Commonkeys
   keys = {
